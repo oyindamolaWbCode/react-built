@@ -2,6 +2,7 @@
 
 const BlogList = (props) => {
     const blogs = props.blogs;
+    const title = props.title;
 
     console.log(props, blogs);
     return ( 
